@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top:hover {
   color: #fff;
   background: #2eafec;
-  transition: background 0.2s ease-in-out;
+  transition:  0.2s ease-in-out;
 }
 
 /*--------------------------------------------------------------
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color:grey;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color:orange;
 }
 
 /* Mobile Navigation */
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #149ddd;
+  color: rgb(233, 98, 20);
 }
 
 .mobile-nav-active {
